@@ -24,6 +24,11 @@
                Placeholder="Email address"
                Text="Test"
                Keyboard="Email"/>
+
+        <Entry x:Name="passwordEntry"
+               Placeholder="Password"
+               IsPassword="True"/>
+
     </StackLayout>
 
 </ContentPage>
