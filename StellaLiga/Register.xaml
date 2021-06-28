@@ -11,7 +11,7 @@
                Aspect="AspectFit"
                HorizontalOptions="FillAndExpand"
                HeightRequest="75"
-               Margin="0,100,0,0"/>
+               Margin="0,20,0,0"/>
 
         <Label x:Name="welcomeMsg"
                Text="Welcome to Stella-Liga!"
@@ -37,7 +37,7 @@
                      HorizontalOptions="Center">
 
              <Entry x:Name="playerFirstName"
-               Margin="0,40,0,0"
+               Margin="0,30,0,0"
                Placeholder="First Name"
                     WidthRequest="150"
                Keyboard="Text"/>
