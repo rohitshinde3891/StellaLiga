@@ -10,7 +10,7 @@ namespace StellaLiga
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Register();
         }
 
         protected override void OnStart()

@@ -19,14 +19,17 @@
     <None Remove="LiveXAML" />
     <None Remove="Assets\" />
     <None Remove="Assets\Images\" />
-    <None Remove="Assets\Images\logo.png" />
     <None Remove="Xamstrap" />
+    <None Remove="Assets\Images\logo.png" />
+    <None Remove="Assets\Images\siteIcon.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
     <Folder Include="Assets\Images\" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\logo old.png" />
     <EmbeddedResource Include="Assets\Images\logo.png" />
+    <EmbeddedResource Include="Assets\Images\siteIcon.png" />
   </ItemGroup>
 </Project>
