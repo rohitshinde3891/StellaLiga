@@ -13,6 +13,10 @@ namespace StellaLiga
         public MainPage()
         {
             InitializeComponent();
+
+            var assembly = typeof(MainPage);
+            logo.Source = ImageSource.FromResource("StellaLiga.Assets.Images.logo.png", assembly);
+            
         }
     }
 }
